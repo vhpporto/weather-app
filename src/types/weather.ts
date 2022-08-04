@@ -1,4 +1,4 @@
-export interface Welcome {
+export interface Weather {
   location: Location;
   current: Current;
 }

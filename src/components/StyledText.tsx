@@ -27,7 +27,7 @@ const getMarginString = ({ml, mt, mb, mr}: CustomTextProps) =>
 const CustomText = styled(Animated.Text)<CustomTextProps>`
   font-weight: ${p => (p.bold ? 'bold' : 'normal')};
   font-size: ${p => p.size || 14}px;
-  color: ${p => p.color || p.theme.mainText} !important;
+  color: ${p => p.color || '#333'} !important;
   text-align: ${p => p.align || 'left'};
   margin: ${getMarginString};
 `;
